@@ -1,0 +1,17 @@
+name: CoinShop
+main: CoinShop\Main
+api: 3.0.0
+version: 2.0.0
+author: mixpowder
+commands:
+ bshop:
+  usage: /bshop
+  description: 購入shopを開く for Coin
+ sshop:
+  usage: /sshop
+  description: 売却shopを開く for Coin
+  permission: sshop
+
+permissions:
+ sshop:
+  default: false 
